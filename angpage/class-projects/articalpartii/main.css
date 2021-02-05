@@ -1,0 +1,39 @@
+p{
+  color: #545151;
+  font-family: monospace;
+}
+
+.title{
+  font-family: sans-serif;
+
+}
+
+a:hover{
+    color:#f7ab63
+  }
+
+li{
+  background-color:#e4f0e8;
+
+}
+
+h1{
+  font-family: sans-serif;
+  color: pink;
+  background-color: #f7f7c6;
+width:100px;
+}
+
+h2{
+  color: pink;
+  background-color: #f7f7c6;
+width:400px;
+
+}
+
+h3{
+  font-family: sans-serif;
+  font-style: italic;
+  background-color: #d9f0c7;
+  padding: 10px;
+  max-width: 70%
