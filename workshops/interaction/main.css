@@ -1,0 +1,44 @@
+body{
+  background-color: #cac8ab;
+  font-size: 22px;
+}
+
+p{
+  color: #6b6363;
+}
+
+.special{
+   color: #ea9087;
+   font-style: italic;
+   cursor: cell;
+ }
+
+.secret{
+  position:absolute;
+  width: 400px;
+  top: 100px;
+  left: 300px;
+  display: none;
+
+}
+
+.special:hover .secret{
+  display: block;
+}
+
+.circle{
+  background-color: #3f766c;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100px;
+  right: 200px;
+  transition: transform 1s ease, background .5s ease, border-radius .5s;
+}
+
+.circle:hover {
+  border-radius: 0;
+  transform: scale(2);
+  background: #b4f2d5;
+}

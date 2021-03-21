@@ -1,0 +1,30 @@
+body{
+  margin: 20px;
+
+}
+
+.box{
+  color: white;
+  background-color: #d4e09b;
+  max width: 900px;
+  min-height: 150px;
+
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.item{
+  background-color: #8FC0A9;
+  width: 32%;
+  height: 200px;
+
+}
+
+@media screen and (max-width: 800px){
+  body{
+    font-size: 30px;
+  }
+}

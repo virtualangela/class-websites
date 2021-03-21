@@ -1,0 +1,88 @@
+
+
+body{
+  background-color: #eddbda;
+
+}
+
+a{
+color: white;
+font-style: italic;
+cursor: crosshair;
+text-decoration: none;
+
+}
+
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #deb4b1;
+  text-decoration: none;
+}
+
+img{
+  max-width: 300px;
+  border-style: groove;
+  cursor: crosshair;
+}
+
+
+.enter{
+  display: table;
+  justify-content: center;
+  color: white;
+  background-color: #deb4b1;
+  border-style: groove;
+  border-color: white;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  justify-content: center;
+  margin-top: 300px;
+  margin-left: 420px;
+}
+
+.yes{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  cursor: crosshair;
+  font-family: monospace;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-left:
+  margin-top:
+}
+
+.no{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    cursor: crosshair;
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left:
+    margin-top:
+}
+
+.one{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+
+.worship{
+  display: table;
+  font-family: monospace;
+  color: white;
+  background-color: #deb4b1;
+  border-style: groove;
+  border-color: white;
+  margin-left: 450px;
+}

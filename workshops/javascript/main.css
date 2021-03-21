@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+
+
+.btn{
+  background-color: #94a89e;
+  padding: 10px;
+  width: 60px;
+  cursor: crosshair;
+}
+
+btn::selection{
+display: none;
+background: transparent;
+}
+
+.btn: hover{
+  background-color: #d1e3da;
+}
+
+#box{
+  height: 100%;
+  width: 400px;
+  background-color: #f5f3dc;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 25px;
+  padding: 25px;
+  transition: right .5s;
+}
+
+.active {
+  right: 400px;
+
+
+}

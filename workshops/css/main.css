@@ -1,0 +1,25 @@
+p {
+  color:white;
+  background-color:#a6ba9b;
+  font-size: 40px;
+  border-radius: 25px;
+  padding: 20px
+  margin:25px;
+  width:400px;
+}
+
+img{
+  max-width: 100%
+}
+
+.new{
+color: lightblue;
+font-style: italic;
+line-height: 150%
+font-family:monospace;
+
+}
+
+a:hover{
+  color:red;
+}

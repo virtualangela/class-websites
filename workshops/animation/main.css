@@ -1,0 +1,70 @@
+body{
+  background-color: #897C80;
+}
+
+.flex{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.circle{
+width: 20vw;
+height: 20vw;
+background-color: #D4F2DB;
+border-radius: 50%;
+animation: pulse 2s infinite alternate
+
+}
+
+.square{
+width: 20vw;
+height: 20vw;
+background-color: #CAB6CD;
+animation: spin 2s infinite linear
+}
+
+.runner{
+  width: 20vw;
+  height: 10vw;
+  background-color: #2E86AB;
+  position: fixed;
+  bottom:0;
+  left: 0;
+  animation: run 2s infinite
+}
+
+@keyframes pulse{
+  0% {
+    transform: scale(1);
+    background-color: #D4F2DB;
+  }
+  50% {
+    transform: scale(1.5);
+    background-color: #FFFFFC;
+  }
+  100% {
+    transform: scale(1);
+    background-color: #D4F2DB;
+  }
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes run{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(100vw);
+  }
+}

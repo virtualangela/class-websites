@@ -1,0 +1,43 @@
+title{
+
+}
+
+body{
+  background-color: #EE7674;
+  font-family: monospace;
+  display: inline;
+}
+
+a{
+  color: #F9B5AC;
+  font-family: monospace;
+  font-style: italic;
+}
+
+.intro{
+background-color: #F9B5AC;
+display: block;
+width: 50%;
+border-style: groove;
+
+
+}
+
+.interview{
+  background-color: #D0D6B5;
+  display: block;
+  height: 400px;
+  width: 50%;
+  overflow: scroll;
+  border-style: groove;
+}
+
+.reccomends{
+  background-color: #3C5A14;
+  color: #D0D6B5;
+  display: block;
+  width: 50%;
+  height: 400px;
+  overflow: scroll;
+  border-style: groove;
+}
