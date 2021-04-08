@@ -1,0 +1,36 @@
+body{
+animation: 10000ms ease infinite colorchange;
+}
+
+
+.flower{
+  margin-top: 550px;
+  margin-left: 300px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+}
+
+
+
+
+@keyframes colorchange {
+  0%{
+    background-color: #ad160e;
+  }
+  20%{
+    background-color: #ff0800;
+  }
+  40%{
+    background-color: #8c0808;
+  }
+60%{
+  background-color: #c91e27;
+}
+80{
+  background-color: #b52b24;
+}
+100%{
+  background-color: #000000;
+}
+}
