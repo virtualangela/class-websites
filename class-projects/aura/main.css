@@ -11,7 +11,9 @@ animation: 10000ms ease infinite colorchange;
   position: fixed;
 }
 
-
+.audio{
+  display: none;
+}
 
 
 @keyframes colorchange {
